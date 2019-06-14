@@ -7,8 +7,11 @@ end
 def using_pop(array)
   array.pop
 end
+def pop_with_args(array)
+  array.pop(2)
+end  
 def using_shift(array)
-  array.push(string)
+  array.shift
 end
 def using_push(array, string)
   array.push(string)
